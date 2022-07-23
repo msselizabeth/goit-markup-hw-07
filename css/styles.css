@@ -35,7 +35,7 @@ font-size: 14px;
 }
 
 /* Утилиты */
-    .buttons-portfolio, .examples-list, .menu, .benefits-list, .services-list, .team-list , .social-list , .footer-social-list , .clients-list{
+    .buttons-portfolio, .examples-list, .site-nav-list, .benefits-list, .services-list, .team-list , .social-list , .footer-social-list , .clients-list{
     list-style-type: none;
 }
 
