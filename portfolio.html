@@ -17,20 +17,20 @@
 </head>
 <body>
     <!--Шапка-->
-    <header class="header">
+     <header class="header">
 
-       
-        <nav class="site-nav contanier">
-             <a class="logo" href="./index.html"><span class="logo-word">Web</span>Studio</a>
-         <ul class="site-nav-list">
-             <li class="site-nav-item">
-                <a class="site-nav-link current" href="./index.html">Студия</a>
+  
+        <nav class="menu contanier">
+            <a class="menu-logo" href="./index.html"><span class="menu-logo--inverse">Web</span>Studio</a>
+         <ul class="menu-list">
+             <li class="menu-item">
+                <a class="menu-link" href="./index.html">Студия</a>
             </li>
-             <li class="site-nav-item">
-                <a class="site-nav-link" href="./portfolio.html">Портфолио</a>
+             <li class="menu-item">
+                <a class="menu-link current" href="./portfolio.html">Портфолио</a>
             </li>
-             <li class="site-nav-item">
-                <a class="site-nav-link" href="#">Контакты</a>
+             <li class="menu-item">
+                <a class="menu-link" href="#">Контакты</a>
             </li>
          </ul>
           <div class="contact">
@@ -44,32 +44,33 @@
                 </svg>+38 096 111 11 11</a>
         </div>
         </nav>
-    
+       
 
     </header>
+
 
     <!--Главный контент-->
     <main>
         <!--Кнопки-->
 
         <section class="section">
-            <div class="portfolio-box contanier">
+            <div class="filter contanier">
                 <h1 hidden>Портфолио</h1>
-            <ul class="buttons-portfolio">
-                <li class="buttons-item">
-                    <button class="buttons" type="button">Все</button>
+            <ul class="filter-list">
+                <li class="filter-item">
+                    <button class="filter-button" type="button">Все</button>
                 </li>
-                <li class="buttons-item">
-                    <button class="buttons" type="button">Веб-сайты</button>
+                <li class="filter-item">
+                    <button class="filter-button" type="button">Веб-сайты</button>
                 </li>
-                <li class="buttons-item">
-                    <button class="buttons" type="button">Приложения</button>
+                <li class="filter-item">
+                    <button class="filter-button" type="button">Приложения</button>
                 </li>
-                <li class="buttons-item">
-                    <button class="buttons" type="button">Дизайн</button>
+                <li class="filter-item">
+                    <button class="filter-button" type="button">Дизайн</button>
                 </li>
-                <li class="buttons-item">
-                    <button class="buttons" type="button">Маркетинг</button>
+                <li class="filter-item">
+                    <button class="filter-button" type="button">Маркетинг</button>
                 </li>
             </ul>
             </div>
@@ -206,14 +207,14 @@
     <footer class="footer section">
         <div class="contanier footer-box" >
            <div class="contanier adress-box">
-             <a class="footer-logo" href="./index.html"><span class="logo-word">Web</span>Studio</a>
+             <a class="footer-logo" href="./index.html"><span class="footer-logo--inverse">Web</span>Studio</a>
              <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-             <p class="fot-cont"><a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
-             <p class="fot-cont"><a class="footer-contacts" href="tel:380961111111">+38 096 111 11 11</a></p>
+             <p class="adress-contact"><a class="adress-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></p>
+             <p class="adress-contact"><a class="adress-contact-link" href="tel:380961111111">+38 096 111 11 11</a></p>
            </div>
         
            <div class="contanier footer-social-box">
-              <h2 class="social-title">Присоединяйтесь</h2>
+              <h2 class="footer-social-title">Присоединяйтесь</h2>
               <ul class="footer-social-list">
                  <li class="footer-social-item">
                      <a class="footer-social-link" href="#">
@@ -241,15 +242,15 @@
               </ul>
          </div>
 
-         <div class="mailing-list">
+         <div class="subscription">
                
-                    <h2 class="mailing-list-title">Подпишитесь на рассылку</h2>
+                    <h2 class="subscription-title">Подпишитесь на рассылку</h2>
               
-                <form class="mailing-list-form">
-                <label class="mailing-list-label" for="e-mail"></label>
-                <input class="mailing-list-input" type="email" id="e-mail" name="e-mail" placeholder="E-mail">
-                <button class="btn-footer" type="submit">Подписаться
-                    <svg class="btn-footer-icon" aria-hidden="true" width="24px" height="24px"> <use href="./images/icons.svg#icon-send"></use></svg>
+                <form class="subscription-form">
+                <label class="subscription-label" for="e-mail"></label>
+                <input class="subscription-input" type="email" id="e-mail" name="e-mail" placeholder="E-mail">
+                <button class="button subscription-btn" type="submit">Подписаться
+                    <svg class="subscription-btn-icon" aria-hidden="true" width="24px" height="24px"> <use href="./images/icons.svg#icon-send"></use></svg>
                 </button>
                 
               </form>
